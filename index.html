@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>appointment scheduler</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <form id="formOne" >
+
+<head>
+  <meta charset="utf-8">
+  <title>appointment scheduler</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Appointment booker!</h1>
+      <h3>Enter your information to book an appointment with us today!</h3>
+    </div>
+      <div class="well">
+
+      <form  action="booking-complete.html" id="formOne">
         <!-- name -->
         <div class="form-group">
           <label for="name">Enter your name</label>
@@ -31,10 +39,10 @@
           <label for="time">What time would you like your appointment to begin and end?</label>
           <input id="time" class="form-control" type="text">
         </div>
-        <button type="submit" name="button">Book appointment</button>
+        <button type="submit" name="button">Book Appointment</button>
       </form>
-
     </div>
+  </div>
+</body>
 
-  </body>
 </html>

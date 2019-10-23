@@ -1,0 +1,9 @@
+.jumbotron {
+text-align: center;
+}
+
+body {
+  margin-top: 200px;
+  background: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-attachment: fixed;
+}
